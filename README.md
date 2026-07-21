@@ -85,9 +85,13 @@ Contoh output di terminal:
 [1/100] test001: 3 plat terdeteksi
     [test001_0] GT: 'B9140BCD' | Pred: 'B9140BCD' | CER: 0.0
 ...
-[SELESAI] Total plat diproses: 197
-[HASIL] Disimpan di hasil_ocr_platv1.csv
-[RATA-RATA CER] 0.1082
+[HASIL] Total plat diproses : 197
+[HASIL] Rata-rata CER       : 0.3658
+[HASIL] Exact match         : 141/197
+[HASIL] Accuracy (exact)    : 0.7157
+[HASIL] Model               : qwen2-vl-2b-instruct
+[HASIL] CSV disimpan di hasil_ocr_platmobil.csv
+[HASIL] Ringkasan disimpan di hasil_ocr_plat_summary.txt
 ```
 
 ### 5. Melihat Hasil
